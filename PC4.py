@@ -201,7 +201,7 @@ else:
         st.image("GRAFICOPIE.png", caption='Gráfico Torta Netflix', width=500)
         pass
     elif grafico_seleccionado == 'mapa idiomas':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>El mapa presenta la distribución geográfica de los idiomas indígenas en el Perú mediante agrupaciones visuales (clústeres) que destacan las zonas con mayor concentración lingüística. Se observa una notable densidad en regiones como Ucayali, Junín, Cusco y Loreto, lo que evidencia la diversidad cultural y lingüística de la Amazonía y la sierra central. Esta representación permite identificar fácilmente los territorios donde la presencia de lenguas originarias es más significativa, subrayando la importancia de su protección y promoción en contextos regionales específicos.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa_idiomas_cluster.html", "r", encoding="utf-8") as f:
