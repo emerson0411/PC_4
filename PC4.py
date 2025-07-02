@@ -193,11 +193,11 @@ else:
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico de barras verticales: Vistas vs. Colaborador':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico muestra que los videos de salud con artistas e influencers logran el mayor promedio de vistas, superando a los realizados por médicos, ciudadanos o sin colaborador. Esto indica que las figuras públicas generan más alcance en campañas de salud. Los artistas destacan con más de 16,000 vistas en promedio, seguidos por los influencers con 12,500. En cambio, los videos sin colaborador apenas superan las 3,000 vistas.</div>", unsafe_allow_html=True)
         st.image("GRAFICO_DE_BARRAS.png", caption='Gráfico de barras verticales: Vistas vs. Colaborador', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico Torta Netflix':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico circular muestra la distribución de contenidos en Netflix según su tipo, basado en los valores únicos de la columna 'type'. Se observa que el 69.6% del contenido corresponde a películas, con un total de 6,131 títulos y el 30.4% corresponde a series de televisión, con 2,676 títulos. Esto indica que Netflix tiene una mayor oferta de películas que de series, lo cual puede reflejar tanto la estrategia de contenido de la plataforma como las preferencias de sus usuarios.</div>", unsafe_allow_html=True)
         st.image("GRAFICOPIE.png", caption='Gráfico Torta Netflix', width=500)
         pass
     elif grafico_seleccionado == 'mapa idiomas':
