@@ -200,7 +200,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
         st.image("GRAFICOPIE.png", caption='Gráfico Torta Netflix', width=500)
         pass
-    elif grafico_seleccionado == 'mapa_cusco':
+    elif grafico_seleccionado == 'mapa idiomas':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
