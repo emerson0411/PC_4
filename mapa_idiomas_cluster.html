@@ -1,0 +1,3417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5cd797c6a783c31d10064ffc2e465fb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a5cd797c6a783c31d10064ffc2e465fb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a5cd797c6a783c31d10064ffc2e465fb = L.map(
+                "map_a5cd797c6a783c31d10064ffc2e465fb",
+                {
+                    center: [-9.19, -75.0152],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a34c28cc48bfed56f8a94317f52ff76d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a34c28cc48bfed56f8a94317f52ff76d.addTo(map_a5cd797c6a783c31d10064ffc2e465fb);
+        
+    
+            var marker_cluster_27a30e71e50f19d5706bd8b3404ba625 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_3b510e3174476b7d017d4fd4bf4af2af = L.marker(
+                [-5.30044, -77.9218],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_a5f8c4efa03cf73c6011b3a6899eb6d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_217ea02b7164bfb0d1c40eac70dacf7e = $(`<div id="html_217ea02b7164bfb0d1c40eac70dacf7e" style="width: 100.0%; height: 100.0%;">Aguaruna (Chicham)</div>`)[0];
+                popup_a5f8c4efa03cf73c6011b3a6899eb6d2.setContent(html_217ea02b7164bfb0d1c40eac70dacf7e);
+            
+        
+
+        marker_3b510e3174476b7d017d4fd4bf4af2af.bindPopup(popup_a5f8c4efa03cf73c6011b3a6899eb6d2)
+        ;
+
+        
+    
+    
+            marker_3b510e3174476b7d017d4fd4bf4af2af.bindTooltip(
+                `<div>
+                     Chicham
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3fcafb23e34c4cc65d1be1701cb27ee0 = L.marker(
+                [-12.4931, -70.5533],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_9d31681858a489ff2e7978195cbfd3b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a68cdfbc622c83b27f5520341d723de6 = $(`<div id="html_a68cdfbc622c83b27f5520341d723de6" style="width: 100.0%; height: 100.0%;">Amarakaeri (Harakmbut)</div>`)[0];
+                popup_9d31681858a489ff2e7978195cbfd3b8.setContent(html_a68cdfbc622c83b27f5520341d723de6);
+            
+        
+
+        marker_3fcafb23e34c4cc65d1be1701cb27ee0.bindPopup(popup_9d31681858a489ff2e7978195cbfd3b8)
+        ;
+
+        
+    
+    
+            marker_3fcafb23e34c4cc65d1be1701cb27ee0.bindTooltip(
+                `<div>
+                     Harakmbut
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f391daa62e61a5b72a00d71f694a844 = L.marker(
+                [-1.96126, -75.0612],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_57a4bb0832354a9070d5a6d89f2ec2fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77d5f0b89c952760acf6a929a6bab6f3 = $(`<div id="html_77d5f0b89c952760acf6a929a6bab6f3" style="width: 100.0%; height: 100.0%;">Arabela (Zaparoan)</div>`)[0];
+                popup_57a4bb0832354a9070d5a6d89f2ec2fc.setContent(html_77d5f0b89c952760acf6a929a6bab6f3);
+            
+        
+
+        marker_1f391daa62e61a5b72a00d71f694a844.bindPopup(popup_57a4bb0832354a9070d5a6d89f2ec2fc)
+        ;
+
+        
+    
+    
+            marker_1f391daa62e61a5b72a00d71f694a844.bindTooltip(
+                `<div>
+                     Zaparoan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cc13e5f381eef32fa8dcb650f72cd030 = L.marker(
+                [-7.878618, -78.116456],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_f36e715a741d0bc1a2930300d18aef0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a76a73c9fdb01cd713d5df5881554ab5 = $(`<div id="html_a76a73c9fdb01cd713d5df5881554ab5" style="width: 100.0%; height: 100.0%;">Culli (NK)</div>`)[0];
+                popup_f36e715a741d0bc1a2930300d18aef0c.setContent(html_a76a73c9fdb01cd713d5df5881554ab5);
+            
+        
+
+        marker_cc13e5f381eef32fa8dcb650f72cd030.bindPopup(popup_f36e715a741d0bc1a2930300d18aef0c)
+        ;
+
+        
+    
+    
+            marker_cc13e5f381eef32fa8dcb650f72cd030.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff9dcd0862c4d81426e045f609f6b29e = L.marker(
+                [-5.568969, -80.828247],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_993024297e10d18d969e3d4f5a5420bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b69217d73819c0ec3e6eec20ceb2b0e = $(`<div id="html_5b69217d73819c0ec3e6eec20ceb2b0e" style="width: 100.0%; height: 100.0%;">Sechuran (Sechuran)</div>`)[0];
+                popup_993024297e10d18d969e3d4f5a5420bd.setContent(html_5b69217d73819c0ec3e6eec20ceb2b0e);
+            
+        
+
+        marker_ff9dcd0862c4d81426e045f609f6b29e.bindPopup(popup_993024297e10d18d969e3d4f5a5420bd)
+        ;
+
+        
+    
+    
+            marker_ff9dcd0862c4d81426e045f609f6b29e.bindTooltip(
+                `<div>
+                     Sechuran
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_188c5c47bc755091dd464c7282fe4c10 = L.marker(
+                [-1.284096, -75.084405],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_f27ce88f0adc8b09a92628ef0c8e223f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce518d67ac73d029891c5eb5efbacf98 = $(`<div id="html_ce518d67ac73d029891c5eb5efbacf98" style="width: 100.0%; height: 100.0%;">Aewa (NK)</div>`)[0];
+                popup_f27ce88f0adc8b09a92628ef0c8e223f.setContent(html_ce518d67ac73d029891c5eb5efbacf98);
+            
+        
+
+        marker_188c5c47bc755091dd464c7282fe4c10.bindPopup(popup_f27ce88f0adc8b09a92628ef0c8e223f)
+        ;
+
+        
+    
+    
+            marker_188c5c47bc755091dd464c7282fe4c10.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8e4bdeb76430e658b5f364888843ab90 = L.marker(
+                [-10.9777, -74.9153],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_abeee6feec76a7c2e5bed95ac3ccb047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92f14842b65e5bc068303c323900ed6e = $(`<div id="html_92f14842b65e5bc068303c323900ed6e" style="width: 100.0%; height: 100.0%;">Ashéninka Perené (Arawakan)</div>`)[0];
+                popup_abeee6feec76a7c2e5bed95ac3ccb047.setContent(html_92f14842b65e5bc068303c323900ed6e);
+            
+        
+
+        marker_8e4bdeb76430e658b5f364888843ab90.bindPopup(popup_abeee6feec76a7c2e5bed95ac3ccb047)
+        ;
+
+        
+    
+    
+            marker_8e4bdeb76430e658b5f364888843ab90.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7990b5894fc8db12e48f3d2046f1f248 = L.marker(
+                [-10.7583, -74.2014],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_70e7bc26fd9d44dcfaf5813801d2e707 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67a51c04b1a7f50c82e391ea874a8a79 = $(`<div id="html_67a51c04b1a7f50c82e391ea874a8a79" style="width: 100.0%; height: 100.0%;">Ashéninka Pajonal (Arawakan)</div>`)[0];
+                popup_70e7bc26fd9d44dcfaf5813801d2e707.setContent(html_67a51c04b1a7f50c82e391ea874a8a79);
+            
+        
+
+        marker_7990b5894fc8db12e48f3d2046f1f248.bindPopup(popup_70e7bc26fd9d44dcfaf5813801d2e707)
+        ;
+
+        
+    
+    
+            marker_7990b5894fc8db12e48f3d2046f1f248.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dbb1847cb12c5222a06d08e76ea93306 = L.marker(
+                [-13.84714, -74.32246],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_9431e9712956833002dbe9973d6aa8f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9cd7de511af69d0680ac4b7f60b5ddf = $(`<div id="html_d9cd7de511af69d0680ac4b7f60b5ddf" style="width: 100.0%; height: 100.0%;">Ayacucho Quechua (Quechuan)</div>`)[0];
+                popup_9431e9712956833002dbe9973d6aa8f1.setContent(html_d9cd7de511af69d0680ac4b7f60b5ddf);
+            
+        
+
+        marker_dbb1847cb12c5222a06d08e76ea93306.bindPopup(popup_9431e9712956833002dbe9973d6aa8f1)
+        ;
+
+        
+    
+    
+            marker_dbb1847cb12c5222a06d08e76ea93306.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f483f9f48f7ede9869d93ad565275e12 = L.marker(
+                [-5.330824, -80.651093],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_f9454044a093e7435004a76a76c33872 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96a26a4db46b4fe7549b26e6a660c8c7 = $(`<div id="html_96a26a4db46b4fe7549b26e6a660c8c7" style="width: 100.0%; height: 100.0%;">Tallán (Tallán)</div>`)[0];
+                popup_f9454044a093e7435004a76a76c33872.setContent(html_96a26a4db46b4fe7549b26e6a660c8c7);
+            
+        
+
+        marker_f483f9f48f7ede9869d93ad565275e12.bindPopup(popup_f9454044a093e7435004a76a76c33872)
+        ;
+
+        
+    
+    
+            marker_f483f9f48f7ede9869d93ad565275e12.bindTooltip(
+                `<div>
+                     Tallán
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3f226c81af51528d0e64a53ec026ff96 = L.marker(
+                [-4.09028, -76.01],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_f05e9128034cd29bbdb86c1dfe01c3ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca4c1df29c217ab3de86e0d7df87ae23 = $(`<div id="html_ca4c1df29c217ab3de86e0d7df87ae23" style="width: 100.0%; height: 100.0%;">Omurano (NK)</div>`)[0];
+                popup_f05e9128034cd29bbdb86c1dfe01c3ba.setContent(html_ca4c1df29c217ab3de86e0d7df87ae23);
+            
+        
+
+        marker_3f226c81af51528d0e64a53ec026ff96.bindPopup(popup_f05e9128034cd29bbdb86c1dfe01c3ba)
+        ;
+
+        
+    
+    
+            marker_3f226c81af51528d0e64a53ec026ff96.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bf0e2271bf63dfc03b3395b6314d6d21 = L.marker(
+                [-7.09314, -78.3214],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_0787f0e1c8cdef8fe2310862b3ab4e49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dddab4d6ac0046dd73761da492d76c59 = $(`<div id="html_dddab4d6ac0046dd73761da492d76c59" style="width: 100.0%; height: 100.0%;">Cajamarca Quechua (Quechuan)</div>`)[0];
+                popup_0787f0e1c8cdef8fe2310862b3ab4e49.setContent(html_dddab4d6ac0046dd73761da492d76c59);
+            
+        
+
+        marker_bf0e2271bf63dfc03b3395b6314d6d21.bindPopup(popup_0787f0e1c8cdef8fe2310862b3ab4e49)
+        ;
+
+        
+    
+    
+            marker_bf0e2271bf63dfc03b3395b6314d6d21.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_03a6d536342381a84690424cf3a58a68 = L.marker(
+                [-4.23835, -76.9347],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_aefcd37cf2b9b87ae247fca98fbe7757 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c86c8a6ce0713410d3d83cf5a1e9d1f4 = $(`<div id="html_c86c8a6ce0713410d3d83cf5a1e9d1f4" style="width: 100.0%; height: 100.0%;">Candoshi-Shapra (Candoshi-Shapra)</div>`)[0];
+                popup_aefcd37cf2b9b87ae247fca98fbe7757.setContent(html_c86c8a6ce0713410d3d83cf5a1e9d1f4);
+            
+        
+
+        marker_03a6d536342381a84690424cf3a58a68.bindPopup(popup_aefcd37cf2b9b87ae247fca98fbe7757)
+        ;
+
+        
+    
+    
+            marker_03a6d536342381a84690424cf3a58a68.bindTooltip(
+                `<div>
+                     Candoshi-Shapra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4d9145cfdb06a029210083ef85723156 = L.marker(
+                [-6.63254, -74.3813],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_dc5ee4bc679ad4d4bed7966f8c56b7e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25cc653078a10870c47ec585f3be5406 = $(`<div id="html_25cc653078a10870c47ec585f3be5406" style="width: 100.0%; height: 100.0%;">Capanahua (Pano-Tacanan)</div>`)[0];
+                popup_dc5ee4bc679ad4d4bed7966f8c56b7e7.setContent(html_25cc653078a10870c47ec585f3be5406);
+            
+        
+
+        marker_4d9145cfdb06a029210083ef85723156.bindPopup(popup_dc5ee4bc679ad4d4bed7966f8c56b7e7)
+        ;
+
+        
+    
+    
+            marker_4d9145cfdb06a029210083ef85723156.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c291c644bcd88f1f4a49db5be390298e = L.marker(
+                [-8.70232, -75.4206],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_a1b7d711e9636f46ce902db79cce9661 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19404b0c6e42e014ebb3101479fece99 = $(`<div id="html_19404b0c6e42e014ebb3101479fece99" style="width: 100.0%; height: 100.0%;">Cashibo-Cacataibo (Pano-Tacanan)</div>`)[0];
+                popup_a1b7d711e9636f46ce902db79cce9661.setContent(html_19404b0c6e42e014ebb3101479fece99);
+            
+        
+
+        marker_c291c644bcd88f1f4a49db5be390298e.bindPopup(popup_a1b7d711e9636f46ce902db79cce9661)
+        ;
+
+        
+    
+    
+            marker_c291c644bcd88f1f4a49db5be390298e.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ee022f75ba77a48a012630fa4f1c1f4f = L.marker(
+                [-8.099583, -79.053383],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_5b34f571d49fdf497601e00b0d85dde3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2aa0149266ef197f9ae6fb15b2f2cd5a = $(`<div id="html_2aa0149266ef197f9ae6fb15b2f2cd5a" style="width: 100.0%; height: 100.0%;">Quignam (NK)</div>`)[0];
+                popup_5b34f571d49fdf497601e00b0d85dde3.setContent(html_2aa0149266ef197f9ae6fb15b2f2cd5a);
+            
+        
+
+        marker_ee022f75ba77a48a012630fa4f1c1f4f.bindPopup(popup_5b34f571d49fdf497601e00b0d85dde3)
+        ;
+
+        
+    
+    
+            marker_ee022f75ba77a48a012630fa4f1c1f4f.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_52784e274f5643636432e558ef45fe9c = L.marker(
+                [-13.31951, -71.22749],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_e6e7366c5f8b47f733db7a484e8ae6f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8de4d92a30cd69525e3144a40f63096c = $(`<div id="html_8de4d92a30cd69525e3144a40f63096c" style="width: 100.0%; height: 100.0%;">Huachipaeri (Harakmbut)</div>`)[0];
+                popup_e6e7366c5f8b47f733db7a484e8ae6f2.setContent(html_8de4d92a30cd69525e3144a40f63096c);
+            
+        
+
+        marker_52784e274f5643636432e558ef45fe9c.bindPopup(popup_e6e7366c5f8b47f733db7a484e8ae6f2)
+        ;
+
+        
+    
+    
+            marker_52784e274f5643636432e558ef45fe9c.bindTooltip(
+                `<div>
+                     Harakmbut
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a8b3919e9bbc6c01f596d2ee190ca1f = L.marker(
+                [-5.1149, -75.6778],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_3b5a46fbe6669d783af5ed62684fbd91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e079ae2bb92c8e86d807cbd8581ba05 = $(`<div id="html_4e079ae2bb92c8e86d807cbd8581ba05" style="width: 100.0%; height: 100.0%;">Chamicuro (Arawakan)</div>`)[0];
+                popup_3b5a46fbe6669d783af5ed62684fbd91.setContent(html_4e079ae2bb92c8e86d807cbd8581ba05);
+            
+        
+
+        marker_0a8b3919e9bbc6c01f596d2ee190ca1f.bindPopup(popup_3b5a46fbe6669d783af5ed62684fbd91)
+        ;
+
+        
+    
+    
+            marker_0a8b3919e9bbc6c01f596d2ee190ca1f.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_43345df52f05176cc3005a49e0eda543 = L.marker(
+                [-5.63764, -76.8252],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_2491bd7287bb8c852abd20992c5b40d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8fae7553321c045e30652ed00b0b8cd = $(`<div id="html_a8fae7553321c045e30652ed00b0b8cd" style="width: 100.0%; height: 100.0%;">Shawi (Cahuapanan)</div>`)[0];
+                popup_2491bd7287bb8c852abd20992c5b40d4.setContent(html_a8fae7553321c045e30652ed00b0b8cd);
+            
+        
+
+        marker_43345df52f05176cc3005a49e0eda543.bindPopup(popup_2491bd7287bb8c852abd20992c5b40d4)
+        ;
+
+        
+    
+    
+            marker_43345df52f05176cc3005a49e0eda543.bindTooltip(
+                `<div>
+                     Cahuapanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7fb4f99e6abb5b9c72471be08926aa2d = L.marker(
+                [-6.58333, -77.7],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_27ede2f6c109531abb59f539e1fd9d15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63ad2b2b7c23f7ba9e8a86fdf857d1d7 = $(`<div id="html_63ad2b2b7c23f7ba9e8a86fdf857d1d7" style="width: 100.0%; height: 100.0%;">Hibito (Hibito-Cholon)</div>`)[0];
+                popup_27ede2f6c109531abb59f539e1fd9d15.setContent(html_63ad2b2b7c23f7ba9e8a86fdf857d1d7);
+            
+        
+
+        marker_7fb4f99e6abb5b9c72471be08926aa2d.bindPopup(popup_27ede2f6c109531abb59f539e1fd9d15)
+        ;
+
+        
+    
+    
+            marker_7fb4f99e6abb5b9c72471be08926aa2d.bindTooltip(
+                `<div>
+                     Hibito-Cholon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6b5e622e3ee0b7314f229338818f49c1 = L.marker(
+                [-9.23129, -75.9621],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_1fa865584913ed1feaf0af82a18cfddb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cfb24ff9bfa5b2124644437556d152d = $(`<div id="html_6cfb24ff9bfa5b2124644437556d152d" style="width: 100.0%; height: 100.0%;">Cholón (Hibito-Cholon)</div>`)[0];
+                popup_1fa865584913ed1feaf0af82a18cfddb.setContent(html_6cfb24ff9bfa5b2124644437556d152d);
+            
+        
+
+        marker_6b5e622e3ee0b7314f229338818f49c1.bindPopup(popup_1fa865584913ed1feaf0af82a18cfddb)
+        ;
+
+        
+    
+    
+            marker_6b5e622e3ee0b7314f229338818f49c1.bindTooltip(
+                `<div>
+                     Hibito-Cholon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6eea69edf3a2dfde911f38b70dbb6705 = L.marker(
+                [-3.3196, -74.5411],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_c9dbd22b25cf6130785620007acc54c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_212845d438fd8f24fbb8ac0dfb593038 = $(`<div id="html_212845d438fd8f24fbb8ac0dfb593038" style="width: 100.0%; height: 100.0%;">Aushiri (Zaparoan)</div>`)[0];
+                popup_c9dbd22b25cf6130785620007acc54c7.setContent(html_212845d438fd8f24fbb8ac0dfb593038);
+            
+        
+
+        marker_6eea69edf3a2dfde911f38b70dbb6705.bindPopup(popup_c9dbd22b25cf6130785620007acc54c7)
+        ;
+
+        
+    
+    
+            marker_6eea69edf3a2dfde911f38b70dbb6705.bindTooltip(
+                `<div>
+                     Zaparoan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_763bf4b49eb57b8244e3382acaec10d6 = L.marker(
+                [-14.0853, -71.7663],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_807f6f894787b348ac6c1f5fa23fcd84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b351208b9ed3bc4a70b6af10c8a0019a = $(`<div id="html_b351208b9ed3bc4a70b6af10c8a0019a" style="width: 100.0%; height: 100.0%;">Cusco Quechua (Quechuan)</div>`)[0];
+                popup_807f6f894787b348ac6c1f5fa23fcd84.setContent(html_b351208b9ed3bc4a70b6af10c8a0019a);
+            
+        
+
+        marker_763bf4b49eb57b8244e3382acaec10d6.bindPopup(popup_807f6f894787b348ac6c1f5fa23fcd84)
+        ;
+
+        
+    
+    
+            marker_763bf4b49eb57b8244e3382acaec10d6.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_41af5aa82d3ddbe4e8c71d220e3c43fe = L.marker(
+                [-3.5, -72.0],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_50add69a2833f0fa5941d1ac4054d81b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b48a061d433f3890e860438e7181df86 = $(`<div id="html_b48a061d433f3890e860438e7181df86" style="width: 100.0%; height: 100.0%;">Peba (Peba-Yagua)</div>`)[0];
+                popup_50add69a2833f0fa5941d1ac4054d81b.setContent(html_b48a061d433f3890e860438e7181df86);
+            
+        
+
+        marker_41af5aa82d3ddbe4e8c71d220e3c43fe.bindPopup(popup_50add69a2833f0fa5941d1ac4054d81b)
+        ;
+
+        
+    
+    
+            marker_41af5aa82d3ddbe4e8c71d220e3c43fe.bindTooltip(
+                `<div>
+                     Peba-Yagua
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_42e6da1e5d1f33d9c02582c914988100 = L.marker(
+                [-4.16666, -73.6667],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_a4610bfcd69c0ccbe40f9c6dafa3f822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d30e228e784a11185586f73f7fc82630 = $(`<div id="html_d30e228e784a11185586f73f7fc82630" style="width: 100.0%; height: 100.0%;">Yameo (Peba-Yagua)</div>`)[0];
+                popup_a4610bfcd69c0ccbe40f9c6dafa3f822.setContent(html_d30e228e784a11185586f73f7fc82630);
+            
+        
+
+        marker_42e6da1e5d1f33d9c02582c914988100.bindPopup(popup_a4610bfcd69c0ccbe40f9c6dafa3f822)
+        ;
+
+        
+    
+    
+            marker_42e6da1e5d1f33d9c02582c914988100.bindTooltip(
+                `<div>
+                     Peba-Yagua
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e8c2a57052fba63497945b788f42f6a2 = L.marker(
+                [-12.71823, -75.913623],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_cb77cd9d5f1d6866406c3c041a5a332d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6085fcdc53d361b97c437a8867f76d2b = $(`<div id="html_6085fcdc53d361b97c437a8867f76d2b" style="width: 100.0%; height: 100.0%;">Cauqui of Cachuy (Aymaran)</div>`)[0];
+                popup_cb77cd9d5f1d6866406c3c041a5a332d.setContent(html_6085fcdc53d361b97c437a8867f76d2b);
+            
+        
+
+        marker_e8c2a57052fba63497945b788f42f6a2.bindPopup(popup_cb77cd9d5f1d6866406c3c041a5a332d)
+        ;
+
+        
+    
+    
+            marker_e8c2a57052fba63497945b788f42f6a2.bindTooltip(
+                `<div>
+                     Aymaran
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_37062beeeb1d89610fafb18e2f3a62dc = L.marker(
+                [-2.98889, -73.21293],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_4b9597d9b65006919c63433379c2ee15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c20407c4627d4dc2d104b16b4b3caea4 = $(`<div id="html_c20407c4627d4dc2d104b16b4b3caea4" style="width: 100.0%; height: 100.0%;">Nueva Vida Maijuna Sign Language (Sign Languages)</div>`)[0];
+                popup_4b9597d9b65006919c63433379c2ee15.setContent(html_c20407c4627d4dc2d104b16b4b3caea4);
+            
+        
+
+        marker_37062beeeb1d89610fafb18e2f3a62dc.bindPopup(popup_4b9597d9b65006919c63433379c2ee15)
+        ;
+
+        
+    
+    
+            marker_37062beeeb1d89610fafb18e2f3a62dc.bindTooltip(
+                `<div>
+                     Sign Languages
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_224151425481d61c244a1badd75a8ee8 = L.marker(
+                [-12.51094, -73.86124],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_4bb29933ca0185c83360fe3387d37b32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_116b536676084d99c9f8af7f23ab696c = $(`<div id="html_116b536676084d99c9f8af7f23ab696c" style="width: 100.0%; height: 100.0%;">Sivia Sign Language (Sign Languages)</div>`)[0];
+                popup_4bb29933ca0185c83360fe3387d37b32.setContent(html_116b536676084d99c9f8af7f23ab696c);
+            
+        
+
+        marker_224151425481d61c244a1badd75a8ee8.bindPopup(popup_4bb29933ca0185c83360fe3387d37b32)
+        ;
+
+        
+    
+    
+            marker_224151425481d61c244a1badd75a8ee8.bindTooltip(
+                `<div>
+                     Sign Languages
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4c7020c33551483470bea79468db599b = L.marker(
+                [-9.57135, -75.594],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_1ca5ee78acf727257eeb7f4d2c6d511e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f06b23b258cb86417d16fe9411768b7 = $(`<div id="html_7f06b23b258cb86417d16fe9411768b7" style="width: 100.0%; height: 100.0%;">Huallaga Huánuco Quechua (Quechuan)</div>`)[0];
+                popup_1ca5ee78acf727257eeb7f4d2c6d511e.setContent(html_7f06b23b258cb86417d16fe9411768b7);
+            
+        
+
+        marker_4c7020c33551483470bea79468db599b.bindPopup(popup_1ca5ee78acf727257eeb7f4d2c6d511e)
+        ;
+
+        
+    
+    
+            marker_4c7020c33551483470bea79468db599b.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_94dcbe65583f17dd0cf15c6aebfbf5aa = L.marker(
+                [-4.444587, -76.577683],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_bf76b16ca14a394ed24a889f2afa3bf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ddb7a4b06aae9d4f33aecd5668c72b2 = $(`<div id="html_5ddb7a4b06aae9d4f33aecd5668c72b2" style="width: 100.0%; height: 100.0%;">Jesuit-Maynas (Cahuapanan)</div>`)[0];
+                popup_bf76b16ca14a394ed24a889f2afa3bf4.setContent(html_5ddb7a4b06aae9d4f33aecd5668c72b2);
+            
+        
+
+        marker_94dcbe65583f17dd0cf15c6aebfbf5aa.bindPopup(popup_bf76b16ca14a394ed24a889f2afa3bf4)
+        ;
+
+        
+    
+    
+            marker_94dcbe65583f17dd0cf15c6aebfbf5aa.bindTooltip(
+                `<div>
+                     Cahuapanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98f26b3e66609935fa8171f923d0bf2f = L.marker(
+                [-3.99109, -77.9797],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_06148a6152e11130178977968d20c725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9110a8408883bde0d5579bec2069ce7b = $(`<div id="html_9110a8408883bde0d5579bec2069ce7b" style="width: 100.0%; height: 100.0%;">Huambisa (Chicham)</div>`)[0];
+                popup_06148a6152e11130178977968d20c725.setContent(html_9110a8408883bde0d5579bec2069ce7b);
+            
+        
+
+        marker_98f26b3e66609935fa8171f923d0bf2f.bindPopup(popup_06148a6152e11130178977968d20c725)
+        ;
+
+        
+    
+    
+            marker_98f26b3e66609935fa8171f923d0bf2f.bindTooltip(
+                `<div>
+                     Chicham
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_41a18edfbcdd1ca177356b61392c141f = L.marker(
+                [-11.14278, -76.73046],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_15c2d24b0b43f96a455959e56cc770de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56e6ffa13d0aae57e926c19d898b8ff6 = $(`<div id="html_56e6ffa13d0aae57e926c19d898b8ff6" style="width: 100.0%; height: 100.0%;">Pacaraos Quechua (Quechuan)</div>`)[0];
+                popup_15c2d24b0b43f96a455959e56cc770de.setContent(html_56e6ffa13d0aae57e926c19d898b8ff6);
+            
+        
+
+        marker_41a18edfbcdd1ca177356b61392c141f.bindPopup(popup_15c2d24b0b43f96a455959e56cc770de)
+        ;
+
+        
+    
+    
+            marker_41a18edfbcdd1ca177356b61392c141f.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab55b19f936c3db04b013ce32406c274 = L.marker(
+                [-3.31233, -73.97046],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_651e013cc3d4a1c6a519f4668e5e46f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6f0f7493969cf78b4634f15c36b99ee = $(`<div id="html_f6f0f7493969cf78b4634f15c36b99ee" style="width: 100.0%; height: 100.0%;">Iquito (Zaparoan)</div>`)[0];
+                popup_651e013cc3d4a1c6a519f4668e5e46f0.setContent(html_f6f0f7493969cf78b4634f15c36b99ee);
+            
+        
+
+        marker_ab55b19f936c3db04b013ce32406c274.bindPopup(popup_651e013cc3d4a1c6a519f4668e5e46f0)
+        ;
+
+        
+    
+    
+            marker_ab55b19f936c3db04b013ce32406c274.bindTooltip(
+                `<div>
+                     Zaparoan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b69cd56ec2c3ccd1ac7a9f104f6666f = L.marker(
+                [-5.25, -75.8333],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_57795c53527d893c3c9fa4e2d0c4063c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f41734e20b5cada6724fc925757922ad = $(`<div id="html_f41734e20b5cada6724fc925757922ad" style="width: 100.0%; height: 100.0%;">Aguano (NK)</div>`)[0];
+                popup_57795c53527d893c3c9fa4e2d0c4063c.setContent(html_f41734e20b5cada6724fc925757922ad);
+            
+        
+
+        marker_9b69cd56ec2c3ccd1ac7a9f104f6666f.bindPopup(popup_57795c53527d893c3c9fa4e2d0c4063c)
+        ;
+
+        
+    
+    
+            marker_9b69cd56ec2c3ccd1ac7a9f104f6666f.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0fa8c29adc1b401793971136ead50e90 = L.marker(
+                [-7.75236, -74.5193],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_896457a1e04477feedc79f2f8c5e7d95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a61f673d2172b7f97f5bb62a594724d = $(`<div id="html_4a61f673d2172b7f97f5bb62a594724d" style="width: 100.0%; height: 100.0%;">Isconahua (Pano-Tacanan)</div>`)[0];
+                popup_896457a1e04477feedc79f2f8c5e7d95.setContent(html_4a61f673d2172b7f97f5bb62a594724d);
+            
+        
+
+        marker_0fa8c29adc1b401793971136ead50e90.bindPopup(popup_896457a1e04477feedc79f2f8c5e7d95)
+        ;
+
+        
+    
+    
+            marker_0fa8c29adc1b401793971136ead50e90.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fb3e9fcf4d1dacf5499ddb45c9f85e2d = L.marker(
+                [-12.741939, -75.809231],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_e108a2a4057081a9124f90f1a2df78bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1d88946764b040556b63a9f0b8b4a93 = $(`<div id="html_f1d88946764b040556b63a9f0b8b4a93" style="width: 100.0%; height: 100.0%;">Jaqaru (Aymaran)</div>`)[0];
+                popup_e108a2a4057081a9124f90f1a2df78bb.setContent(html_f1d88946764b040556b63a9f0b8b4a93);
+            
+        
+
+        marker_fb3e9fcf4d1dacf5499ddb45c9f85e2d.bindPopup(popup_e108a2a4057081a9124f90f1a2df78bb)
+        ;
+
+        
+    
+    
+            marker_fb3e9fcf4d1dacf5499ddb45c9f85e2d.bindTooltip(
+                `<div>
+                     Aymaran
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ad7b87de85e7428efcaf691cfac6d2b7 = L.marker(
+                [-3.29664, -76.6056],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_b88bf01b0caeef53c9633831d99fbd95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3453757495cd1427f1613af6fb032b52 = $(`<div id="html_3453757495cd1427f1613af6fb032b52" style="width: 100.0%; height: 100.0%;">Andoa (Zaparoan)</div>`)[0];
+                popup_b88bf01b0caeef53c9633831d99fbd95.setContent(html_3453757495cd1427f1613af6fb032b52);
+            
+        
+
+        marker_ad7b87de85e7428efcaf691cfac6d2b7.bindPopup(popup_b88bf01b0caeef53c9633831d99fbd95)
+        ;
+
+        
+    
+    
+            marker_ad7b87de85e7428efcaf691cfac6d2b7.bindTooltip(
+                `<div>
+                     Zaparoan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2bc32ee149672efd1f46b86036fcefd = L.marker(
+                [-5.40317, -76.4103],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_b5b4ec0d1346e17d822b32564473e657 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2418e748cff3f6d736ace7acb45922a = $(`<div id="html_e2418e748cff3f6d736ace7acb45922a" style="width: 100.0%; height: 100.0%;">Jebero (Cahuapanan)</div>`)[0];
+                popup_b5b4ec0d1346e17d822b32564473e657.setContent(html_e2418e748cff3f6d736ace7acb45922a);
+            
+        
+
+        marker_e2bc32ee149672efd1f46b86036fcefd.bindPopup(popup_b5b4ec0d1346e17d822b32564473e657)
+        ;
+
+        
+    
+    
+            marker_e2bc32ee149672efd1f46b86036fcefd.bindTooltip(
+                `<div>
+                     Cahuapanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cdaa6c39921bf888da79a20c75f9a858 = L.marker(
+                [-3.72665, -73.9469],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_6d1f1780605156b1d077a4d513887f88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bbe50ec85ba3b20202a14bf41d1be78 = $(`<div id="html_6bbe50ec85ba3b20202a14bf41d1be78" style="width: 100.0%; height: 100.0%;">Cahuarano (Zaparoan)</div>`)[0];
+                popup_6d1f1780605156b1d077a4d513887f88.setContent(html_6bbe50ec85ba3b20202a14bf41d1be78);
+            
+        
+
+        marker_cdaa6c39921bf888da79a20c75f9a858.bindPopup(popup_6d1f1780605156b1d077a4d513887f88)
+        ;
+
+        
+    
+    
+            marker_cdaa6c39921bf888da79a20c75f9a858.bindTooltip(
+                `<div>
+                     Zaparoan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c866696e541020611f3e48dc0c1ee915 = L.marker(
+                [-12.1291, -72.5017],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_6f9e6ce5667e50d6bbe2daf3ff672335 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e295baab1ba89563297ae40a7756087 = $(`<div id="html_4e295baab1ba89563297ae40a7756087" style="width: 100.0%; height: 100.0%;">Machiguenga (Arawakan)</div>`)[0];
+                popup_6f9e6ce5667e50d6bbe2daf3ff672335.setContent(html_4e295baab1ba89563297ae40a7756087);
+            
+        
+
+        marker_c866696e541020611f3e48dc0c1ee915.bindPopup(popup_6f9e6ce5667e50d6bbe2daf3ff672335)
+        ;
+
+        
+    
+    
+            marker_c866696e541020611f3e48dc0c1ee915.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6cb915a487341c6951db6075859eddce = L.marker(
+                [-11.543809, -68.277741],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_aca3ef602d61c3bf0a60388940bdcb02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37983459abddebfa25ad968667bc7dd2 = $(`<div id="html_37983459abddebfa25ad968667bc7dd2" style="width: 100.0%; height: 100.0%;">Mabenaro (Pano-Tacanan)</div>`)[0];
+                popup_aca3ef602d61c3bf0a60388940bdcb02.setContent(html_37983459abddebfa25ad968667bc7dd2);
+            
+        
+
+        marker_6cb915a487341c6951db6075859eddce.bindPopup(popup_aca3ef602d61c3bf0a60388940bdcb02)
+        ;
+
+        
+    
+    
+            marker_6cb915a487341c6951db6075859eddce.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c55029d0c3e553374b0cf0112eb92436 = L.marker(
+                [-12.85, -75.649],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_3fc31bd1964c99f84310f3bcf9ac26e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9041ca0b1b5be09823e3ce878e7329d3 = $(`<div id="html_9041ca0b1b5be09823e3ce878e7329d3" style="width: 100.0%; height: 100.0%;">Chincha Quechua (Quechuan)</div>`)[0];
+                popup_3fc31bd1964c99f84310f3bcf9ac26e3.setContent(html_9041ca0b1b5be09823e3ce878e7329d3);
+            
+        
+
+        marker_c55029d0c3e553374b0cf0112eb92436.bindPopup(popup_3fc31bd1964c99f84310f3bcf9ac26e3)
+        ;
+
+        
+    
+    
+            marker_c55029d0c3e553374b0cf0112eb92436.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_25f94d0b65eec8ac7045d6717a4beb00 = L.marker(
+                [-11.4745, -70.7953],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_e0bcf48df59502422d44463d693eab6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6347368cac670d773c2f609103ba971 = $(`<div id="html_c6347368cac670d773c2f609103ba971" style="width: 100.0%; height: 100.0%;">Mashco Piro (Arawakan)</div>`)[0];
+                popup_e0bcf48df59502422d44463d693eab6b.setContent(html_c6347368cac670d773c2f609103ba971);
+            
+        
+
+        marker_25f94d0b65eec8ac7045d6717a4beb00.bindPopup(popup_e0bcf48df59502422d44463d693eab6b)
+        ;
+
+        
+    
+    
+            marker_25f94d0b65eec8ac7045d6717a4beb00.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc76edaa8db4170251a670acbb55a4c2 = L.marker(
+                [-6.1715, -79.468],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_5c81ea1005a9ae2522d1e47b22b9c967 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17c388ae560e768eac2bf63c9a9630bc = $(`<div id="html_17c388ae560e768eac2bf63c9a9630bc" style="width: 100.0%; height: 100.0%;">Lambayeque Quechua (Quechuan)</div>`)[0];
+                popup_5c81ea1005a9ae2522d1e47b22b9c967.setContent(html_17c388ae560e768eac2bf63c9a9630bc);
+            
+        
+
+        marker_fc76edaa8db4170251a670acbb55a4c2.bindPopup(popup_5c81ea1005a9ae2522d1e47b22b9c967)
+        ;
+
+        
+    
+    
+            marker_fc76edaa8db4170251a670acbb55a4c2.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_26641bf1030b8d1effb240e90a93a20f = L.marker(
+                [-8.01667, -79.0],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_df04f3a5f305983a5dee287b877ef148 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0d5c057294a969fdecb9b6134808667 = $(`<div id="html_b0d5c057294a969fdecb9b6134808667" style="width: 100.0%; height: 100.0%;">Mochica (NK)</div>`)[0];
+                popup_df04f3a5f305983a5dee287b877ef148.setContent(html_b0d5c057294a969fdecb9b6134808667);
+            
+        
+
+        marker_26641bf1030b8d1effb240e90a93a20f.bindPopup(popup_df04f3a5f305983a5dee287b877ef148)
+        ;
+
+        
+    
+    
+            marker_26641bf1030b8d1effb240e90a93a20f.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_34acb9aab3444d92d7d4d34e1a67d37a = L.marker(
+                [-5.7441796, -76.426712],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_890c7b1b6dcc7c087c92c68f2f2553b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09f82d07876af01d6ebc8f7b6e043f35 = $(`<div id="html_09f82d07876af01d6ebc8f7b6e043f35" style="width: 100.0%; height: 100.0%;">Muniche (NK)</div>`)[0];
+                popup_890c7b1b6dcc7c087c92c68f2f2553b3.setContent(html_09f82d07876af01d6ebc8f7b6e043f35);
+            
+        
+
+        marker_34acb9aab3444d92d7d4d34e1a67d37a.bindPopup(popup_890c7b1b6dcc7c087c92c68f2f2553b3)
+        ;
+
+        
+    
+    
+            marker_34acb9aab3444d92d7d4d34e1a67d37a.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ca3ab89b5e19cfc0f0bdaf82d2145c16 = L.marker(
+                [-12.1018, -72.3507],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_dcfe58ec91607fd5bb9d5d850d4babb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d8b26b6b1cb105dd363113d92e37469 = $(`<div id="html_9d8b26b6b1cb105dd363113d92e37469" style="width: 100.0%; height: 100.0%;">Nanti (Arawakan)</div>`)[0];
+                popup_dcfe58ec91607fd5bb9d5d850d4babb4.setContent(html_9d8b26b6b1cb105dd363113d92e37469);
+            
+        
+
+        marker_ca3ab89b5e19cfc0f0bdaf82d2145c16.bindPopup(popup_dcfe58ec91607fd5bb9d5d850d4babb4)
+        ;
+
+        
+    
+    
+            marker_ca3ab89b5e19cfc0f0bdaf82d2145c16.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c2b54f32c9af8753e13671d861d2e58 = L.marker(
+                [-11.5349, -74.4371],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_54fb3fca86ec559bd61e02862d89fa0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9227fcc4022c7f31922a431761ca54b2 = $(`<div id="html_9227fcc4022c7f31922a431761ca54b2" style="width: 100.0%; height: 100.0%;">Nomatsiguenga (Arawakan)</div>`)[0];
+                popup_54fb3fca86ec559bd61e02862d89fa0a.setContent(html_9227fcc4022c7f31922a431761ca54b2);
+            
+        
+
+        marker_6c2b54f32c9af8753e13671d861d2e58.bindPopup(popup_54fb3fca86ec559bd61e02862d89fa0a)
+        ;
+
+        
+    
+    
+            marker_6c2b54f32c9af8753e13671d861d2e58.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f726f11ea5e25a91cc30f03c69e91752 = L.marker(
+                [-11.2132, -75.8128],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_5792e0eb1d7f7d68ba91f4994ee53879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4310767ebccf4954e47f6d927d4ed130 = $(`<div id="html_4310767ebccf4954e47f6d927d4ed130" style="width: 100.0%; height: 100.0%;">North Junín Quechua (Quechuan)</div>`)[0];
+                popup_5792e0eb1d7f7d68ba91f4994ee53879.setContent(html_4310767ebccf4954e47f6d927d4ed130);
+            
+        
+
+        marker_f726f11ea5e25a91cc30f03c69e91752.bindPopup(popup_5792e0eb1d7f7d68ba91f4994ee53879)
+        ;
+
+        
+    
+    
+            marker_f726f11ea5e25a91cc30f03c69e91752.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aa9c54f5d4fc785c6e729eb5d5c6ce42 = L.marker(
+                [-5.634573, -73.126831],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_eea5572cac9d5bc82aab0e5d6856c0b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8b618f8aeef81d6ce2b0d77061e6fca = $(`<div id="html_a8b618f8aeef81d6ce2b0d77061e6fca" style="width: 100.0%; height: 100.0%;">Morike (Arawakan)</div>`)[0];
+                popup_eea5572cac9d5bc82aab0e5d6856c0b9.setContent(html_a8b618f8aeef81d6ce2b0d77061e6fca);
+            
+        
+
+        marker_aa9c54f5d4fc785c6e729eb5d5c6ce42.bindPopup(popup_eea5572cac9d5bc82aab0e5d6856c0b9)
+        ;
+
+        
+    
+    
+            marker_aa9c54f5d4fc785c6e729eb5d5c6ce42.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5114f5bf22fe99d7c03a8cdeda420457 = L.marker(
+                [-12.46525, -69.30827],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_f6c763d11c04bc7cec3a6d48d5dd1510 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfcc7dd9c1feae8cb190dbc144303611 = $(`<div id="html_cfcc7dd9c1feae8cb190dbc144303611" style="width: 100.0%; height: 100.0%;">Iñapari (Arawakan)</div>`)[0];
+                popup_f6c763d11c04bc7cec3a6d48d5dd1510.setContent(html_cfcc7dd9c1feae8cb190dbc144303611);
+            
+        
+
+        marker_5114f5bf22fe99d7c03a8cdeda420457.bindPopup(popup_f6c763d11c04bc7cec3a6d48d5dd1510)
+        ;
+
+        
+    
+    
+            marker_5114f5bf22fe99d7c03a8cdeda420457.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7de80dc4493d6a28b3bd1d206d81fa35 = L.marker(
+                [-2.86315, -72.4926],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_71166746ba12fe81b207cc18ef1801ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e8b5b8e31e3869b8a48cc6820436ff1 = $(`<div id="html_2e8b5b8e31e3869b8a48cc6820436ff1" style="width: 100.0%; height: 100.0%;">Maijiki (Tucanoan)</div>`)[0];
+                popup_71166746ba12fe81b207cc18ef1801ac.setContent(html_2e8b5b8e31e3869b8a48cc6820436ff1);
+            
+        
+
+        marker_7de80dc4493d6a28b3bd1d206d81fa35.bindPopup(popup_71166746ba12fe81b207cc18ef1801ac)
+        ;
+
+        
+    
+    
+            marker_7de80dc4493d6a28b3bd1d206d81fa35.bindTooltip(
+                `<div>
+                     Tucanoan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7ba008f4c348e6007dfc8f57fcddf240 = L.marker(
+                [-6.137278, -73.544312],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_6692ed16b5f15cc403b9271eaf58bf70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0d5b5999aa26b0214271f7d0853d249 = $(`<div id="html_f0d5b5999aa26b0214271f7d0853d249" style="width: 100.0%; height: 100.0%;">Remo of the Blanco river (Pano-Tacanan)</div>`)[0];
+                popup_6692ed16b5f15cc403b9271eaf58bf70.setContent(html_f0d5b5999aa26b0214271f7d0853d249);
+            
+        
+
+        marker_7ba008f4c348e6007dfc8f57fcddf240.bindPopup(popup_6692ed16b5f15cc403b9271eaf58bf70)
+        ;
+
+        
+    
+    
+            marker_7ba008f4c348e6007dfc8f57fcddf240.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b692ee56a9b8b281110fd36437794d9 = L.marker(
+                [-12.62, -75.7],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_690ebc516f78d030f9901552c940bd1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52a2920f258dd3e84e41809671f2f7d9 = $(`<div id="html_52a2920f258dd3e84e41809671f2f7d9" style="width: 100.0%; height: 100.0%;">Laraos (Quechuan)</div>`)[0];
+                popup_690ebc516f78d030f9901552c940bd1b.setContent(html_52a2920f258dd3e84e41809671f2f7d9);
+            
+        
+
+        marker_4b692ee56a9b8b281110fd36437794d9.bindPopup(popup_690ebc516f78d030f9901552c940bd1b)
+        ;
+
+        
+    
+    
+            marker_4b692ee56a9b8b281110fd36437794d9.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_60890b232f0c90d1dfe96ecd6bc803fd = L.marker(
+                [-9.99999, -76.5],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_5ac81b7b533d751ad670ce6924e199bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e79426cd8f0669ff3019096091e3335 = $(`<div id="html_4e79426cd8f0669ff3019096091e3335" style="width: 100.0%; height: 100.0%;">Classical Quechua (Quechuan)</div>`)[0];
+                popup_5ac81b7b533d751ad670ce6924e199bc.setContent(html_4e79426cd8f0669ff3019096091e3335);
+            
+        
+
+        marker_60890b232f0c90d1dfe96ecd6bc803fd.bindPopup(popup_5ac81b7b533d751ad670ce6924e199bc)
+        ;
+
+        
+    
+    
+            marker_60890b232f0c90d1dfe96ecd6bc803fd.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b532632fb6370505e189be78ac103e76 = L.marker(
+                [-9.38709, -77.7768],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_6689aaa1d3a5f4a8e6c5cf6483d92ee5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfcbcaa3641419200100fc352cba2eaa = $(`<div id="html_dfcbcaa3641419200100fc352cba2eaa" style="width: 100.0%; height: 100.0%;">Huaylas Ancash Quechua (Quechuan)</div>`)[0];
+                popup_6689aaa1d3a5f4a8e6c5cf6483d92ee5.setContent(html_dfcbcaa3641419200100fc352cba2eaa);
+            
+        
+
+        marker_b532632fb6370505e189be78ac103e76.bindPopup(popup_6689aaa1d3a5f4a8e6c5cf6483d92ee5)
+        ;
+
+        
+    
+    
+            marker_b532632fb6370505e189be78ac103e76.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc79987207e085d65c60b30865eb5aeb = L.marker(
+                [-9.15718, -76.3372],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_b3b7e5c7d011fd4279ecb47da7d0ed59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b042e4d889ff4623d3e4ab0ea85cfff4 = $(`<div id="html_b042e4d889ff4623d3e4ab0ea85cfff4" style="width: 100.0%; height: 100.0%;">Huamalíes-Dos de Mayo Huánuco Quechua (Quechuan)</div>`)[0];
+                popup_b3b7e5c7d011fd4279ecb47da7d0ed59.setContent(html_b042e4d889ff4623d3e4ab0ea85cfff4);
+            
+        
+
+        marker_bc79987207e085d65c60b30865eb5aeb.bindPopup(popup_b3b7e5c7d011fd4279ecb47da7d0ed59)
+        ;
+
+        
+    
+    
+            marker_bc79987207e085d65c60b30865eb5aeb.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_213bbd69eba7a7362e808e8bb2f2cdf7 = L.marker(
+                [-12.1809, -75.2055],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_83ec6061f7f73a5d3e4f9c5968371c45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cef12ed7c302c13b63951cb4e8de13b5 = $(`<div id="html_cef12ed7c302c13b63951cb4e8de13b5" style="width: 100.0%; height: 100.0%;">Huaylla Wanca Quechua (Quechuan)</div>`)[0];
+                popup_83ec6061f7f73a5d3e4f9c5968371c45.setContent(html_cef12ed7c302c13b63951cb4e8de13b5);
+            
+        
+
+        marker_213bbd69eba7a7362e808e8bb2f2cdf7.bindPopup(popup_83ec6061f7f73a5d3e4f9c5968371c45)
+        ;
+
+        
+    
+    
+            marker_213bbd69eba7a7362e808e8bb2f2cdf7.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_65c0c645c6e452f6472d60b5a394d652 = L.marker(
+                [-11.6747, -75.2786],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_54188693967392300d7c991be85ff068 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d0b77664aaa3e982c4b7a87373ea707 = $(`<div id="html_4d0b77664aaa3e982c4b7a87373ea707" style="width: 100.0%; height: 100.0%;">Jauja Wanca Quechua (Quechuan)</div>`)[0];
+                popup_54188693967392300d7c991be85ff068.setContent(html_4d0b77664aaa3e982c4b7a87373ea707);
+            
+        
+
+        marker_65c0c645c6e452f6472d60b5a394d652.bindPopup(popup_54188693967392300d7c991be85ff068)
+        ;
+
+        
+    
+    
+            marker_65c0c645c6e452f6472d60b5a394d652.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_88398d31d953bf180f4518486c1dcbe3 = L.marker(
+                [-10.5138, -76.1135],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_86c421ac224980b283bb2f624bff0a5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac62a5f36c54a8c69d53b7e7443844a8 = $(`<div id="html_ac62a5f36c54a8c69d53b7e7443844a8" style="width: 100.0%; height: 100.0%;">Ambo-Pasco Quechua (Quechuan)</div>`)[0];
+                popup_86c421ac224980b283bb2f624bff0a5f.setContent(html_ac62a5f36c54a8c69d53b7e7443844a8);
+            
+        
+
+        marker_88398d31d953bf180f4518486c1dcbe3.bindPopup(popup_86c421ac224980b283bb2f624bff0a5f)
+        ;
+
+        
+    
+    
+            marker_88398d31d953bf180f4518486c1dcbe3.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c2897f9f04a7bd941ca40b0d3797cbd2 = L.marker(
+                [-10.4929, -76.5314],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_6c3192e413a4e8b80fb1a381c42330e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4651e25f520ad2bbe12000153a6488eb = $(`<div id="html_4651e25f520ad2bbe12000153a6488eb" style="width: 100.0%; height: 100.0%;">Chaupihuaranga Quechua (Quechuan)</div>`)[0];
+                popup_6c3192e413a4e8b80fb1a381c42330e3.setContent(html_4651e25f520ad2bbe12000153a6488eb);
+            
+        
+
+        marker_c2897f9f04a7bd941ca40b0d3797cbd2.bindPopup(popup_6c3192e413a4e8b80fb1a381c42330e3)
+        ;
+
+        
+    
+    
+            marker_c2897f9f04a7bd941ca40b0d3797cbd2.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_68798c58446d791339335a3c2d4da92f = L.marker(
+                [-10.4126, -76.9602],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_4ada5a1087a098edc688488687a5cc42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69f77e5edc390fff9a3e62b4d710dc16 = $(`<div id="html_69f77e5edc390fff9a3e62b4d710dc16" style="width: 100.0%; height: 100.0%;">Cajatambo North Lima Quechua (Quechuan)</div>`)[0];
+                popup_4ada5a1087a098edc688488687a5cc42.setContent(html_69f77e5edc390fff9a3e62b4d710dc16);
+            
+        
+
+        marker_68798c58446d791339335a3c2d4da92f.bindPopup(popup_4ada5a1087a098edc688488687a5cc42)
+        ;
+
+        
+    
+    
+            marker_68798c58446d791339335a3c2d4da92f.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc69c9d6fbbca72ab40ed63b146e1d43 = L.marker(
+                [-10.1831, -77.4152],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_092056dfc1e83d6896413399b5b9a57b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43328a40e31a15798c0e9ac096205664 = $(`<div id="html_43328a40e31a15798c0e9ac096205664" style="width: 100.0%; height: 100.0%;">Chiquián Ancash Quechua (Quechuan)</div>`)[0];
+                popup_092056dfc1e83d6896413399b5b9a57b.setContent(html_43328a40e31a15798c0e9ac096205664);
+            
+        
+
+        marker_fc69c9d6fbbca72ab40ed63b146e1d43.bindPopup(popup_092056dfc1e83d6896413399b5b9a57b)
+        ;
+
+        
+    
+    
+            marker_fc69c9d6fbbca72ab40ed63b146e1d43.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c18b1868197cc5c49996df070e9a3515 = L.marker(
+                [-12.4653, -69.3083],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_88d0dd7b685acf593428a9fbc2012bde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c680d4327a13d46615c0c8632bc42ee = $(`<div id="html_5c680d4327a13d46615c0c8632bc42ee" style="width: 100.0%; height: 100.0%;">Modern Iñapari (Arawakan)</div>`)[0];
+                popup_88d0dd7b685acf593428a9fbc2012bde.setContent(html_5c680d4327a13d46615c0c8632bc42ee);
+            
+        
+
+        marker_c18b1868197cc5c49996df070e9a3515.bindPopup(popup_88d0dd7b685acf593428a9fbc2012bde)
+        ;
+
+        
+    
+    
+            marker_c18b1868197cc5c49996df070e9a3515.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_afd31785192e9cdbf2bd2c2e422dd308 = L.marker(
+                [-7.24999, -74.9166],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_bfa5139247cea4fcc45b18907222f3d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_778d20617a8e1777e634ab0bcf8b3ca1 = $(`<div id="html_778d20617a8e1777e634ab0bcf8b3ca1" style="width: 100.0%; height: 100.0%;">Sensi (Pano-Tacanan)</div>`)[0];
+                popup_bfa5139247cea4fcc45b18907222f3d0.setContent(html_778d20617a8e1777e634ab0bcf8b3ca1);
+            
+        
+
+        marker_afd31785192e9cdbf2bd2c2e422dd308.bindPopup(popup_bfa5139247cea4fcc45b18907222f3d0)
+        ;
+
+        
+    
+    
+            marker_afd31785192e9cdbf2bd2c2e422dd308.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e7a9b4686a0a4880668fd49c3f56d1eb = L.marker(
+                [-7.16666, -75.0],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_184a5233d3c96129be5436b71f5bf499 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7f4705d9728e3db0b407de91708b159 = $(`<div id="html_b7f4705d9728e3db0b407de91708b159" style="width: 100.0%; height: 100.0%;">Panobo (Pano-Tacanan)</div>`)[0];
+                popup_184a5233d3c96129be5436b71f5bf499.setContent(html_b7f4705d9728e3db0b407de91708b159);
+            
+        
+
+        marker_e7a9b4686a0a4880668fd49c3f56d1eb.bindPopup(popup_184a5233d3c96129be5436b71f5bf499)
+        ;
+
+        
+    
+    
+            marker_e7a9b4686a0a4880668fd49c3f56d1eb.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cdac6efddc3922bfcb0027ee7f439e11 = L.marker(
+                [-7.33333, -74.0833],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_a2691cbc7c5f30650a4fff391ffd2280 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e08123139cdd843123d6045555ef1db7 = $(`<div id="html_e08123139cdd843123d6045555ef1db7" style="width: 100.0%; height: 100.0%;">Remo of the Moa river (Pano-Tacanan)</div>`)[0];
+                popup_a2691cbc7c5f30650a4fff391ffd2280.setContent(html_e08123139cdd843123d6045555ef1db7);
+            
+        
+
+        marker_cdac6efddc3922bfcb0027ee7f439e11.bindPopup(popup_a2691cbc7c5f30650a4fff391ffd2280)
+        ;
+
+        
+    
+    
+            marker_cdac6efddc3922bfcb0027ee7f439e11.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb92e587d0c9287450be1175a8121863 = L.marker(
+                [-14.1666, -69.5],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_e5a86de3f9be39eb3f516deed876ab1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_314306c6cf1d1c2e074b47531004acbd = $(`<div id="html_314306c6cf1d1c2e074b47531004acbd" style="width: 100.0%; height: 100.0%;">Atsahuaca (Pano-Tacanan)</div>`)[0];
+                popup_e5a86de3f9be39eb3f516deed876ab1a.setContent(html_314306c6cf1d1c2e074b47531004acbd);
+            
+        
+
+        marker_bb92e587d0c9287450be1175a8121863.bindPopup(popup_e5a86de3f9be39eb3f516deed876ab1a)
+        ;
+
+        
+    
+    
+            marker_bb92e587d0c9287450be1175a8121863.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_14c63cf525f8266856f1a0a954b441eb = L.marker(
+                [-13.25, -70.8],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_6293e7c0e55040f88d2a07bb550a7aa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38e7e75eb7ba69326937ec053066af18 = $(`<div id="html_38e7e75eb7ba69326937ec053066af18" style="width: 100.0%; height: 100.0%;">Arazaire (Pano-Tacanan)</div>`)[0];
+                popup_6293e7c0e55040f88d2a07bb550a7aa1.setContent(html_38e7e75eb7ba69326937ec053066af18);
+            
+        
+
+        marker_14c63cf525f8266856f1a0a954b441eb.bindPopup(popup_6293e7c0e55040f88d2a07bb550a7aa1)
+        ;
+
+        
+    
+    
+            marker_14c63cf525f8266856f1a0a954b441eb.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e0cd07668957390ce4a2cf01b32a3acf = L.marker(
+                [-7.17105, -74.8219],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_82055f82d7a051590d27d1e796737616 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11e6951d29862ec94cb735a9c35ea74b = $(`<div id="html_11e6951d29862ec94cb735a9c35ea74b" style="width: 100.0%; height: 100.0%;">Shipibo-Conibo (Pano-Tacanan)</div>`)[0];
+                popup_82055f82d7a051590d27d1e796737616.setContent(html_11e6951d29862ec94cb735a9c35ea74b);
+            
+        
+
+        marker_e0cd07668957390ce4a2cf01b32a3acf.bindPopup(popup_82055f82d7a051590d27d1e796737616)
+        ;
+
+        
+    
+    
+            marker_e0cd07668957390ce4a2cf01b32a3acf.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_05579db1c3a6f8f592b34ae83af2beb7 = L.marker(
+                [-12.62, -75.7],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_ac6ff3e64b10d9281de2ea1e4e67d16b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_501d49a13fbc5d7e88f84c23b6b015ec = $(`<div id="html_501d49a13fbc5d7e88f84c23b6b015ec" style="width: 100.0%; height: 100.0%;">Tana-Lincha (Quechuan)</div>`)[0];
+                popup_ac6ff3e64b10d9281de2ea1e4e67d16b.setContent(html_501d49a13fbc5d7e88f84c23b6b015ec);
+            
+        
+
+        marker_05579db1c3a6f8f592b34ae83af2beb7.bindPopup(popup_ac6ff3e64b10d9281de2ea1e4e67d16b)
+        ;
+
+        
+    
+    
+            marker_05579db1c3a6f8f592b34ae83af2beb7.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd675a994551417e6cfa4297a569fe81 = L.marker(
+                [-6.9582, -76.6608],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_0bb521edad0a279f31893b24e790b108 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8886dff15c0ab84291ed3de86261e966 = $(`<div id="html_8886dff15c0ab84291ed3de86261e966" style="width: 100.0%; height: 100.0%;">San Martín Quechua (Quechuan)</div>`)[0];
+                popup_0bb521edad0a279f31893b24e790b108.setContent(html_8886dff15c0ab84291ed3de86261e966);
+            
+        
+
+        marker_cd675a994551417e6cfa4297a569fe81.bindPopup(popup_0bb521edad0a279f31893b24e790b108)
+        ;
+
+        
+    
+    
+            marker_cd675a994551417e6cfa4297a569fe81.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_37403ccbeed7c7faa118446ff8a2bca7 = L.marker(
+                [-6.27021, -77.6615],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_fc181e1a368b40cc96c90f04d8509be5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a45f39454670ac1669f0f083c64f53ab = $(`<div id="html_a45f39454670ac1669f0f083c64f53ab" style="width: 100.0%; height: 100.0%;">Chachapoyas Quechua (Quechuan)</div>`)[0];
+                popup_fc181e1a368b40cc96c90f04d8509be5.setContent(html_a45f39454670ac1669f0f083c64f53ab);
+            
+        
+
+        marker_37403ccbeed7c7faa118446ff8a2bca7.bindPopup(popup_fc181e1a368b40cc96c90f04d8509be5)
+        ;
+
+        
+    
+    
+            marker_37403ccbeed7c7faa118446ff8a2bca7.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2610316e4b826c249bd8e2bf8acb881f = L.marker(
+                [-15.1806, -72.6333],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_700062f59ac7bbe58707d5878974774f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7a351f3f443ce678c4cc80acea8fa47 = $(`<div id="html_d7a351f3f443ce678c4cc80acea8fa47" style="width: 100.0%; height: 100.0%;">Arequipa-La Unión Quechua (Quechuan)</div>`)[0];
+                popup_700062f59ac7bbe58707d5878974774f.setContent(html_d7a351f3f443ce678c4cc80acea8fa47);
+            
+        
+
+        marker_2610316e4b826c249bd8e2bf8acb881f.bindPopup(popup_700062f59ac7bbe58707d5878974774f)
+        ;
+
+        
+    
+    
+            marker_2610316e4b826c249bd8e2bf8acb881f.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b93616a7840534041ae7c8271250f09 = L.marker(
+                [-14.1754, -72.6686],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_223ec81bddb27f3eb85a43de88ccbf6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7235f56327983ec1f50a11530c836aea = $(`<div id="html_7235f56327983ec1f50a11530c836aea" style="width: 100.0%; height: 100.0%;">Eastern Apurímac Quechua (Quechuan)</div>`)[0];
+                popup_223ec81bddb27f3eb85a43de88ccbf6f.setContent(html_7235f56327983ec1f50a11530c836aea);
+            
+        
+
+        marker_4b93616a7840534041ae7c8271250f09.bindPopup(popup_223ec81bddb27f3eb85a43de88ccbf6f)
+        ;
+
+        
+    
+    
+            marker_4b93616a7840534041ae7c8271250f09.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e47d75e0923176bd0c8561f38485ce5f = L.marker(
+                [-14.608, -70.2084],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_3619b0b3b80f6712ef867beb7cab71a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2092a15f4bb7fd771f4463c694df5c7b = $(`<div id="html_2092a15f4bb7fd771f4463c694df5c7b" style="width: 100.0%; height: 100.0%;">Puno Quechua (Quechuan)</div>`)[0];
+                popup_3619b0b3b80f6712ef867beb7cab71a0.setContent(html_2092a15f4bb7fd771f4463c694df5c7b);
+            
+        
+
+        marker_e47d75e0923176bd0c8561f38485ce5f.bindPopup(popup_3619b0b3b80f6712ef867beb7cab71a0)
+        ;
+
+        
+    
+    
+            marker_e47d75e0923176bd0c8561f38485ce5f.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dd60cdea1fb7c2da3cbf369693ca86e5 = L.marker(
+                [-8.57647, -77.9864],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_af711360d47f5373d7da7c1590f3b393 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_870c81372ac710eb490a302c1d740f21 = $(`<div id="html_870c81372ac710eb490a302c1d740f21" style="width: 100.0%; height: 100.0%;">Corongo Ancash Quechua (Quechuan)</div>`)[0];
+                popup_af711360d47f5373d7da7c1590f3b393.setContent(html_870c81372ac710eb490a302c1d740f21);
+            
+        
+
+        marker_dd60cdea1fb7c2da3cbf369693ca86e5.bindPopup(popup_af711360d47f5373d7da7c1590f3b393)
+        ;
+
+        
+    
+    
+            marker_dd60cdea1fb7c2da3cbf369693ca86e5.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc7d3b1f6b2f7f916788f5c362be70f6 = L.marker(
+                [-8.49346, -77.5319],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_dbad8f812257aac71eff48eae2926f12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f95cac3ea63f150ebd304b53320e909 = $(`<div id="html_9f95cac3ea63f150ebd304b53320e909" style="width: 100.0%; height: 100.0%;">Sihuas Ancash Quechua (Quechuan)</div>`)[0];
+                popup_dbad8f812257aac71eff48eae2926f12.setContent(html_9f95cac3ea63f150ebd304b53320e909);
+            
+        
+
+        marker_dc7d3b1f6b2f7f916788f5c362be70f6.bindPopup(popup_dbad8f812257aac71eff48eae2926f12)
+        ;
+
+        
+    
+    
+            marker_dc7d3b1f6b2f7f916788f5c362be70f6.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6f92d89e9f3e4190e1c668eeaa413b49 = L.marker(
+                [-9.30995, -76.9854],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_898f6a2fd2c607821719081671ba51a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_697a26db464f66c021102e4241723e17 = $(`<div id="html_697a26db464f66c021102e4241723e17" style="width: 100.0%; height: 100.0%;">Southern Conchucos Ancash Quechua (Quechuan)</div>`)[0];
+                popup_898f6a2fd2c607821719081671ba51a0.setContent(html_697a26db464f66c021102e4241723e17);
+            
+        
+
+        marker_6f92d89e9f3e4190e1c668eeaa413b49.bindPopup(popup_898f6a2fd2c607821719081671ba51a0)
+        ;
+
+        
+    
+    
+            marker_6f92d89e9f3e4190e1c668eeaa413b49.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_51e04bbb26655cfe9c74b3fa3c692d98 = L.marker(
+                [-8.97356, -77.4146],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_3a295ecbfd5d7c468c89a837fa53702f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58d12e66a35f09484779239b6c6f86ad = $(`<div id="html_58d12e66a35f09484779239b6c6f86ad" style="width: 100.0%; height: 100.0%;">Northern Conchucos Ancash Quechua (Quechuan)</div>`)[0];
+                popup_3a295ecbfd5d7c468c89a837fa53702f.setContent(html_58d12e66a35f09484779239b6c6f86ad);
+            
+        
+
+        marker_51e04bbb26655cfe9c74b3fa3c692d98.bindPopup(popup_3a295ecbfd5d7c468c89a837fa53702f)
+        ;
+
+        
+    
+    
+            marker_51e04bbb26655cfe9c74b3fa3c692d98.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aa7e448ff90c1f72d32d30f4c5e09ca3 = L.marker(
+                [-10.3302, -76.2753],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_486408c6637723437a2975ddb6786dd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf82f76e5bcdaa5f25dce25a25f87564 = $(`<div id="html_bf82f76e5bcdaa5f25dce25a25f87564" style="width: 100.0%; height: 100.0%;">Santa Ana de Tusi Pasco Quechua (Quechuan)</div>`)[0];
+                popup_486408c6637723437a2975ddb6786dd6.setContent(html_bf82f76e5bcdaa5f25dce25a25f87564);
+            
+        
+
+        marker_aa7e448ff90c1f72d32d30f4c5e09ca3.bindPopup(popup_486408c6637723437a2975ddb6786dd6)
+        ;
+
+        
+    
+    
+            marker_aa7e448ff90c1f72d32d30f4c5e09ca3.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c79803fdc0d1483b79f7c09dd34d8c98 = L.marker(
+                [-9.84463, -76.4981],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_a968bf2514c41c2046d64e830b702c16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54b1d5fe6633e80ed01d0d92eb940efa = $(`<div id="html_54b1d5fe6633e80ed01d0d92eb940efa" style="width: 100.0%; height: 100.0%;">Margos-Yarowilca-Lauricocha Quechua (Quechuan)</div>`)[0];
+                popup_a968bf2514c41c2046d64e830b702c16.setContent(html_54b1d5fe6633e80ed01d0d92eb940efa);
+            
+        
+
+        marker_c79803fdc0d1483b79f7c09dd34d8c98.bindPopup(popup_a968bf2514c41c2046d64e830b702c16)
+        ;
+
+        
+    
+    
+            marker_c79803fdc0d1483b79f7c09dd34d8c98.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_510c84c57eb8e118f84677f9b0de6f1e = L.marker(
+                [-9.85887, -75.4382],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_c5e592b20508f22cf889cc36a39e33bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a2b268684f15a3e0bddd71166ad9ac6 = $(`<div id="html_5a2b268684f15a3e0bddd71166ad9ac6" style="width: 100.0%; height: 100.0%;">Panao Huánuco Quechua (Quechuan)</div>`)[0];
+                popup_c5e592b20508f22cf889cc36a39e33bc.setContent(html_5a2b268684f15a3e0bddd71166ad9ac6);
+            
+        
+
+        marker_510c84c57eb8e118f84677f9b0de6f1e.bindPopup(popup_c5e592b20508f22cf889cc36a39e33bc)
+        ;
+
+        
+    
+    
+            marker_510c84c57eb8e118f84677f9b0de6f1e.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f04072626b6f1305a94be27349988fdd = L.marker(
+                [-3.22497, -75.5603],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_3facbfeaabfd1ba23255072e4d457498 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3f1e4fde52cf45fa591269148a0d5be = $(`<div id="html_f3f1e4fde52cf45fa591269148a0d5be" style="width: 100.0%; height: 100.0%;">Taushiro (NK)</div>`)[0];
+                popup_3facbfeaabfd1ba23255072e4d457498.setContent(html_f3f1e4fde52cf45fa591269148a0d5be);
+            
+        
+
+        marker_f04072626b6f1305a94be27349988fdd.bindPopup(popup_3facbfeaabfd1ba23255072e4d457498)
+        ;
+
+        
+    
+    
+            marker_f04072626b6f1305a94be27349988fdd.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9abeba30c1d791a6e27ac5c17b4e88cd = L.marker(
+                [-11.4812, -73.4451],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_cc68a8c3897b77928e9bad3e67b4c40f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fca72aae07117662e526d42db5a5954 = $(`<div id="html_7fca72aae07117662e526d42db5a5954" style="width: 100.0%; height: 100.0%;">Caquinte (Arawakan)</div>`)[0];
+                popup_cc68a8c3897b77928e9bad3e67b4c40f.setContent(html_7fca72aae07117662e526d42db5a5954);
+            
+        
+
+        marker_9abeba30c1d791a6e27ac5c17b4e88cd.bindPopup(popup_cc68a8c3897b77928e9bad3e67b4c40f)
+        ;
+
+        
+    
+    
+            marker_9abeba30c1d791a6e27ac5c17b4e88cd.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7dc30389278369bd8071848f7380d3dc = L.marker(
+                [-11.1086, -73.3087],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_a6c6aaa880277bb6f6587cf6ef4c6746 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d1af31edd3a2a85b698254bd3ba1229 = $(`<div id="html_7d1af31edd3a2a85b698254bd3ba1229" style="width: 100.0%; height: 100.0%;">Yine (Arawakan)</div>`)[0];
+                popup_a6c6aaa880277bb6f6587cf6ef4c6746.setContent(html_7d1af31edd3a2a85b698254bd3ba1229);
+            
+        
+
+        marker_7dc30389278369bd8071848f7380d3dc.bindPopup(popup_a6c6aaa880277bb6f6587cf6ef4c6746)
+        ;
+
+        
+    
+    
+            marker_7dc30389278369bd8071848f7380d3dc.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e733413d792e606c67f3e48b1a3b7011 = L.marker(
+                [-4.44006, -75.4211],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_b0699542101fd1b67c1f5cd0ab027689 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57fd2c535722ad9c73cc8495685770ff = $(`<div id="html_57fd2c535722ad9c73cc8495685770ff" style="width: 100.0%; height: 100.0%;">Urarina (NK)</div>`)[0];
+                popup_b0699542101fd1b67c1f5cd0ab027689.setContent(html_57fd2c535722ad9c73cc8495685770ff);
+            
+        
+
+        marker_e733413d792e606c67f3e48b1a3b7011.bindPopup(popup_b0699542101fd1b67c1f5cd0ab027689)
+        ;
+
+        
+    
+    
+            marker_e733413d792e606c67f3e48b1a3b7011.bindTooltip(
+                `<div>
+                     NK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_32b217bb57e0910e47864a17bc42076b = L.marker(
+                [-12.14477, -77.01956],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_b13eeaa6b8f7eeedd37a620ce42fac6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a592fa8536b35b4e08c6dab2b640c66f = $(`<div id="html_a592fa8536b35b4e08c6dab2b640c66f" style="width: 100.0%; height: 100.0%;">Inmaculada Sign Language (Sign Languages)</div>`)[0];
+                popup_b13eeaa6b8f7eeedd37a620ce42fac6a.setContent(html_a592fa8536b35b4e08c6dab2b640c66f);
+            
+        
+
+        marker_32b217bb57e0910e47864a17bc42076b.bindPopup(popup_b13eeaa6b8f7eeedd37a620ce42fac6a)
+        ;
+
+        
+    
+    
+            marker_32b217bb57e0910e47864a17bc42076b.bindTooltip(
+                `<div>
+                     Sign Languages
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_43af87dfb3a334b38a1ec64030aebec1 = L.marker(
+                [-11.9008, -76.8213],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_0aa4c30cef630a2c3bf05622016ca748 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29eaccd6a9c7ed020414f4a30943e2d4 = $(`<div id="html_29eaccd6a9c7ed020414f4a30943e2d4" style="width: 100.0%; height: 100.0%;">Peruvian Sign Language (Sign Languages)</div>`)[0];
+                popup_0aa4c30cef630a2c3bf05622016ca748.setContent(html_29eaccd6a9c7ed020414f4a30943e2d4);
+            
+        
+
+        marker_43af87dfb3a334b38a1ec64030aebec1.bindPopup(popup_0aa4c30cef630a2c3bf05622016ca748)
+        ;
+
+        
+    
+    
+            marker_43af87dfb3a334b38a1ec64030aebec1.bindTooltip(
+                `<div>
+                     Sign Languages
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_30abee8497d4024da12a71ae2025ed4c = L.marker(
+                [-11.3704, -72.0409],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_451086ebe2609c194193b2ac1baa7e78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5d1ccd9918dedbd843485b82ab766f0 = $(`<div id="html_c5d1ccd9918dedbd843485b82ab766f0" style="width: 100.0%; height: 100.0%;">Yora (Pano-Tacanan)</div>`)[0];
+                popup_451086ebe2609c194193b2ac1baa7e78.setContent(html_c5d1ccd9918dedbd843485b82ab766f0);
+            
+        
+
+        marker_30abee8497d4024da12a71ae2025ed4c.bindPopup(popup_451086ebe2609c194193b2ac1baa7e78)
+        ;
+
+        
+    
+    
+            marker_30abee8497d4024da12a71ae2025ed4c.bindTooltip(
+                `<div>
+                     Pano-Tacanan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6db6386ea6689d2e6b426f52985c91b9 = L.marker(
+                [-10.5454, -75.315],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_0f80da3c6b3e0844d9b74f70ca1ff428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f802f6ca4df2ecf1d7f8db8b5ac0fe2 = $(`<div id="html_8f802f6ca4df2ecf1d7f8db8b5ac0fe2" style="width: 100.0%; height: 100.0%;">Yanesha' (Arawakan)</div>`)[0];
+                popup_0f80da3c6b3e0844d9b74f70ca1ff428.setContent(html_8f802f6ca4df2ecf1d7f8db8b5ac0fe2);
+            
+        
+
+        marker_6db6386ea6689d2e6b426f52985c91b9.bindPopup(popup_0f80da3c6b3e0844d9b74f70ca1ff428)
+        ;
+
+        
+    
+    
+            marker_6db6386ea6689d2e6b426f52985c91b9.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6da9c9fa1094140b306571ac997686d0 = L.marker(
+                [-10.37875, -74.060306],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_d0e3bf0c8675976527357700c2cfadb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a911dbb701df47a54c589a9d0b011ff4 = $(`<div id="html_a911dbb701df47a54c589a9d0b011ff4" style="width: 100.0%; height: 100.0%;">South Ucayali Ashéninka (Arawakan)</div>`)[0];
+                popup_d0e3bf0c8675976527357700c2cfadb6.setContent(html_a911dbb701df47a54c589a9d0b011ff4);
+            
+        
+
+        marker_6da9c9fa1094140b306571ac997686d0.bindPopup(popup_d0e3bf0c8675976527357700c2cfadb6)
+        ;
+
+        
+    
+    
+            marker_6da9c9fa1094140b306571ac997686d0.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2b5a5b8409184acd9a9f59712098e6c7 = L.marker(
+                [-10.47249, -74.60281],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_4f10907bbdc13740f3d67da628184f41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_facc70e2cf6b57932e65cfb9189d659c = $(`<div id="html_facc70e2cf6b57932e65cfb9189d659c" style="width: 100.0%; height: 100.0%;">Pichis Ashéninka (Arawakan)</div>`)[0];
+                popup_4f10907bbdc13740f3d67da628184f41.setContent(html_facc70e2cf6b57932e65cfb9189d659c);
+            
+        
+
+        marker_2b5a5b8409184acd9a9f59712098e6c7.bindPopup(popup_4f10907bbdc13740f3d67da628184f41)
+        ;
+
+        
+    
+    
+            marker_2b5a5b8409184acd9a9f59712098e6c7.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_486c2d7532c1af6f77360b108ff1add2 = L.marker(
+                [-9.82364, -74.61947],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_80586db34a709eb7161ce64c0ff396be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0847316da1fe8d871c2a595b45b34bef = $(`<div id="html_0847316da1fe8d871c2a595b45b34bef" style="width: 100.0%; height: 100.0%;">Ajyíninka Apurucayali (Arawakan)</div>`)[0];
+                popup_80586db34a709eb7161ce64c0ff396be.setContent(html_0847316da1fe8d871c2a595b45b34bef);
+            
+        
+
+        marker_486c2d7532c1af6f77360b108ff1add2.bindPopup(popup_80586db34a709eb7161ce64c0ff396be)
+        ;
+
+        
+    
+    
+            marker_486c2d7532c1af6f77360b108ff1add2.bindTooltip(
+                `<div>
+                     Arawakan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2745331f07dce24a9169a90b98e1a8ea = L.marker(
+                [-12.62, -75.7],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_39eee5971ffa329d0d8f94924b0328cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_916faa09fb558cb4435448b21ece6db0 = $(`<div id="html_916faa09fb558cb4435448b21ece6db0" style="width: 100.0%; height: 100.0%;">Yauyos Quechua (Quechuan)</div>`)[0];
+                popup_39eee5971ffa329d0d8f94924b0328cc.setContent(html_916faa09fb558cb4435448b21ece6db0);
+            
+        
+
+        marker_2745331f07dce24a9169a90b98e1a8ea.bindPopup(popup_39eee5971ffa329d0d8f94924b0328cc)
+        ;
+
+        
+    
+    
+            marker_2745331f07dce24a9169a90b98e1a8ea.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_12f6a828091afa0d931e8f27ba1f9d34 = L.marker(
+                [-3.32733, -76.527],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_35e67d5d88dcbca8438d9d011506ea7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eba2ee1fb52142d4308e2e9eadc8b55 = $(`<div id="html_6eba2ee1fb52142d4308e2e9eadc8b55" style="width: 100.0%; height: 100.0%;">Southern Pastaza Quechua (Quechuan)</div>`)[0];
+                popup_35e67d5d88dcbca8438d9d011506ea7b.setContent(html_6eba2ee1fb52142d4308e2e9eadc8b55);
+            
+        
+
+        marker_12f6a828091afa0d931e8f27ba1f9d34.bindPopup(popup_35e67d5d88dcbca8438d9d011506ea7b)
+        ;
+
+        
+    
+    
+            marker_12f6a828091afa0d931e8f27ba1f9d34.bindTooltip(
+                `<div>
+                     Quechuan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7ab6ec85faf52aa03d06d6af70925ce4 = L.marker(
+                [-4.74563, -73.6507],
+                {
+}
+            ).addTo(marker_cluster_27a30e71e50f19d5706bd8b3404ba625);
+        
+    
+        var popup_9b8b3eb4a1cb0a1d25d750dd15a8c971 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7eebfe5d8b52c2488d9097726612a504 = $(`<div id="html_7eebfe5d8b52c2488d9097726612a504" style="width: 100.0%; height: 100.0%;">Peruvian Amazonian Spanish (Indo-European)</div>`)[0];
+                popup_9b8b3eb4a1cb0a1d25d750dd15a8c971.setContent(html_7eebfe5d8b52c2488d9097726612a504);
+            
+        
+
+        marker_7ab6ec85faf52aa03d06d6af70925ce4.bindPopup(popup_9b8b3eb4a1cb0a1d25d750dd15a8c971)
+        ;
+
+        
+    
+    
+            marker_7ab6ec85faf52aa03d06d6af70925ce4.bindTooltip(
+                `<div>
+                     Indo-European
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_27a30e71e50f19d5706bd8b3404ba625.addTo(map_a5cd797c6a783c31d10064ffc2e465fb);
+        
+    
+            tile_layer_a34c28cc48bfed56f8a94317f52ff76d.addTo(map_a5cd797c6a783c31d10064ffc2e465fb);
+        
+    
+            marker_cluster_27a30e71e50f19d5706bd8b3404ba625.addTo(map_a5cd797c6a783c31d10064ffc2e465fb);
+        
+</script>
+</html>
