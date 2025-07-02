@@ -44,7 +44,7 @@ pagina_seleccionada = st.sidebar.selectbox('Selecciona una página', paginas)
 if pagina_seleccionada == 'Inicio':
 
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-    st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para tu blog</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>LA BITÁCORA DE EMERS0N</h1>", unsafe_allow_html=True)
 
     # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -82,7 +82,6 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
     Mi nombre es Emerson, tengo 27 años y soy estudiante de Publicidad. 
     Disfruto mucho manejar, especialmente cuando escucho música camino al trabajo o a la universidad, ya que ese momento al volante se ha vuelto parte de mi rutina favorita.
     Mi color preferido es el plomo y tengo una verdadera debilidad por el ceviche, mi plato favorito sin discusión.
