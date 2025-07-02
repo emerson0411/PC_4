@@ -117,7 +117,7 @@ elif  pagina_seleccionada == 'Experiencia':
 
     Para mí todo este mundo fue bastante nuevo y sentí que la curva de aprendizaje fue un poco chocante.
     Princiaplente porque llevo Pensamiento Computacional y Métodos de Investigación 1 en paralelo, en los cuales aprendí Python y R Studio respectivamente.
-    La curva de aprendizaje fue subita, pero me puse bien los pantalones y decidí no rendirme.
+    La curva de aprendizaje fue súbita, pero opté por dar lo mejor de mi parte y salir aeroso.
     Ahora siento que puedo defenderme con un nivel funcional y aceptable.
     """
 
