@@ -1,0 +1,16 @@
+[theme]
+
+# Primary accent color. (Elementos interactivos)
+primaryColor = "#FF6B6B"  # Coral vibrante
+
+# Background color of the app. (fondo de la página)
+backgroundColor = "#FFF8F0"  # Marfil cálido
+
+# Background color used for most interactive widgets. (color de la barra lateral)
+secondaryBackgroundColor = "#FFE066"  # Amarillo pastel
+
+# Color used for almost all text. (color de texto)
+textColor = "#2E2E2E"  # Gris oscuro para buena legibilidad
+
+# Tipografía general
+font = "sans-serif"
